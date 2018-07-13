@@ -18,6 +18,3 @@ Supermarket.prototype.checkout = function () {
   this.calculateTotal()
   return "£" + this.basketValue + ".00"
 }
-
-[{item: apple, price: 10}, {item: chocolate, price: 12}]
-{apple: 10, chocolate: 12}
